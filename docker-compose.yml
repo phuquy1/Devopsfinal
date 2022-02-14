@@ -14,6 +14,7 @@ services:
       - DATABASE_HOST=db
       - DATABASE_USER=user
       - DATABASE_PASSWORD=mypassword
+      - DATABASE_NAME=dblinks
   db:
     image: mysql:5.7
     container_name: mysql
