@@ -19,7 +19,7 @@ spec:
             - containerPort: 4000
           env:
             - name: DB_HOST
-              value: mysql-cluster-ip-service 
+              value: mysql-cluster-ip-service
             - name: DATABASE_NAME
               value: dblinks
             - name: DATABASE_USER
