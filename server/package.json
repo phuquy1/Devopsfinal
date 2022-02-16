@@ -3,9 +3,8 @@
   "version": "1.0.1",
   "description": "",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
-    "dev": "node src/index.js",
+    "dev": "nodemon src/index.js --exec babel-node",
     "start": "node dist/index.js",
     "compile": "babel src -d dist",
     "clean": "rimraf dist",
