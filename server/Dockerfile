@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 4000
 
-CMD ["./server/start.sh" ]
+CMD ["./start.sh" ]
