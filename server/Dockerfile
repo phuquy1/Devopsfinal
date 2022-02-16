@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 4000
 
-CMD ["./start.sh" ]
+CMD ["npm run build" && "npm start" ]
